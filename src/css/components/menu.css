@@ -24,7 +24,7 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
   right: 0;
   /* Étend le menu jusqu'à droite de la page */
 
-  transition: all 0.4s ease-in-out 2s;
+  transition: all 0.4s;
   /* Définit une transition de 0.4 secondes pour toutes les propriétés, avec un effet d'accélération et de décélération : https://developer.mozilla.org/fr/docs/Web/CSS/transition */
 
   opacity: 0;
@@ -60,7 +60,7 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
   /* Définit la largeur du bouton à 30px */
   transition: all 0.4s ease-in-out;
   /* Ajoute une transition de 0.4 secondes pour toutes les propriétés, avec un effet d'accélération et de décélération */
-  
+}
  */
 .menu-btn[aria-expanded="true"] {
   transform: rotate(90deg);
