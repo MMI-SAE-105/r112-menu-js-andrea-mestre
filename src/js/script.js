@@ -6,9 +6,19 @@ const nav = document.querySelector("nav");
 toggle.addEventListener("click", ()=>{
     const isOpen = toggle.ariaExpanded === "true";
     const isClosed = !isOpen;
-    console.log("isOpen : ", isOpen, "isClosed : ", isClosed);
+    const body = document.querySelector("body");
+    
     nav.ariaHidden = isOpen;
-    toggle.ariaExpanded = isClosed ;
+    toggle.ariaExpanded = isClosed;
+    if (isClosed) {
+        body.classList.add("noscroll");
+    }
+    else {
+        body.classList.remove("noscroll");
+    }
 });
+
+
+
 
 
