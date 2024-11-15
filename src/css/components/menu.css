@@ -65,3 +65,7 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
 .menu-btn[aria-expanded="true"] {
   transform: rotate(90deg);
 }
+.menu-btn__img-menu {
+  width: 20px;
+  height: 20px;
+}
