@@ -66,9 +66,9 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
   transform: rotate(90deg);
 }
 .menu-btn__img-menu {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
 }
-.img__chat-menu{
-  width: 200px;
+.header__logo-img{
+  width: 70px;
 }
